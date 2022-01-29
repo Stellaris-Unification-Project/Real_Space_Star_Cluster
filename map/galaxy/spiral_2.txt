@@ -1,0 +1,10 @@
+# SPIRAL WITH 2 ARMS
+
+core_radius_perc = 0.2				# Core radius is 20% of the galaxy radius
+
+arms = {
+	tightness_winding = 0.2			# Tightness of winding
+	width = 120.0					# Arm width in degrees
+	fuzz = 25.0						# Maximum outliers distance from arms
+	seperation = 180.0				# Separation (in degrees) between each arm	
+}
