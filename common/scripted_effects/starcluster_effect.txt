@@ -518,8 +518,10 @@ starcluster_spawn_1 = {
 		random_neighbor_system_euclidean = {
 
 			limit = { 
-				NOT = { has_star_flag = star_cluster }
-				NOT = { has_hyperlane_to = PREV }
+				NOR = {
+					has_star_flag = star_cluster
+					has_hyperlane_to = PREV
+				}
 				distance_to_core_percent <= 5
 			}
 			add_hyperlane = { from = PREV to = THIS }
@@ -538,8 +540,10 @@ starcluster_spawn_1 = {
 		}
 		random_neighbor_system_euclidean = {
 			limit = { 
-				NOT = { has_star_flag = star_cluster }
-				NOT = { has_hyperlane_to = PREV }
+				NOR = {
+					has_star_flag = star_cluster
+					has_hyperlane_to = PREV
+				}
 				distance_to_core_percent <= 5
 			}
 			add_hyperlane = { from = PREV to = THIS }
@@ -560,8 +564,10 @@ starcluster_spawn_1 = {
 				}
 				random_neighbor_system_euclidean = {
 					limit = { 
-						NOT = { has_star_flag = star_cluster }
-						NOT = { has_hyperlane_to = PREV }
+						NOR = {
+							has_star_flag = star_cluster
+							has_hyperlane_to = PREV
+						}
 						distance_to_core_percent <= 5
 					}
 					add_hyperlane = { from = PREV to = THIS }
@@ -587,8 +593,10 @@ starcluster_spawn_1 = {
 				}
 				random_neighbor_system_euclidean = {
 					limit = { 
-						NOT = { has_star_flag = star_cluster }
-						NOT = { has_hyperlane_to = PREV }
+						NOR = {
+							has_star_flag = star_cluster
+							has_hyperlane_to = PREV
+						}
 						distance_to_core_percent <= 5
 					}
 					add_hyperlane = { from = PREV to = THIS }
@@ -614,8 +622,10 @@ starcluster_spawn_1 = {
 				}
 				random_neighbor_system_euclidean = {
 					limit = { 
-						NOT = { has_star_flag = star_cluster }
-						NOT = { has_hyperlane_to = PREV }
+						NOR = {
+							has_star_flag = star_cluster
+							has_hyperlane_to = PREV
+						}
 						distance_to_core_percent <= 5
 					}
 					add_hyperlane = { from = PREV to = THIS }
@@ -1146,8 +1156,10 @@ starcluster_spawn_2 = {
 		}
 		random_neighbor_system_euclidean = {
 			limit = { 
-				NOT = { has_star_flag = star_cluster }
-				NOT = { has_hyperlane_to = PREV }
+				NOR = {
+					has_star_flag = star_cluster
+					has_hyperlane_to = PREV
+				}
 				distance_to_core_percent <= 5
 			}
 			add_hyperlane = { from = PREV to = THIS }
@@ -1166,8 +1178,10 @@ starcluster_spawn_2 = {
 		}
 		random_neighbor_system_euclidean = {
 			limit = { 
-				NOT = { has_star_flag = star_cluster }
-				NOT = { has_hyperlane_to = PREV }
+				NOR = {
+					has_star_flag = star_cluster
+					has_hyperlane_to = PREV
+				}
 				distance_to_core_percent <= 5
 			}
 			add_hyperlane = { from = PREV to = THIS }
@@ -1188,8 +1202,10 @@ starcluster_spawn_2 = {
 				}
 				random_neighbor_system_euclidean = {
 					limit = { 
-						NOT = { has_star_flag = star_cluster }
-						NOT = { has_hyperlane_to = PREV }
+						NOR = {
+							has_star_flag = star_cluster
+							has_hyperlane_to = PREV
+						}
 						distance_to_core_percent <= 5
 					}
 					add_hyperlane = { from = PREV to = THIS }
@@ -1215,8 +1231,10 @@ starcluster_spawn_2 = {
 				}
 				random_neighbor_system_euclidean = {
 					limit = { 
-						NOT = { has_star_flag = star_cluster }
-						NOT = { has_hyperlane_to = PREV }
+						NOR = {
+							has_star_flag = star_cluster
+							has_hyperlane_to = PREV
+						}
 						distance_to_core_percent <= 5
 					}
 					add_hyperlane = { from = PREV to = THIS }
@@ -1242,8 +1260,10 @@ starcluster_spawn_2 = {
 				}
 				random_neighbor_system_euclidean = {
 					limit = { 
-						NOT = { has_star_flag = star_cluster }
-						NOT = { has_hyperlane_to = PREV }
+						NOR = {
+							has_star_flag = star_cluster
+							has_hyperlane_to = PREV
+						}
 						distance_to_core_percent <= 5
 					}
 					add_hyperlane = { from = PREV to = THIS }
@@ -1774,8 +1794,10 @@ starcluster_spawn_3 = {
 		}
 		random_neighbor_system_euclidean = {
 			limit = { 
-				NOT = { has_star_flag = star_cluster }
-				NOT = { has_hyperlane_to = PREV }
+				NOR = {
+					has_star_flag = star_cluster
+					has_hyperlane_to = PREV
+				}
 				distance_to_core_percent <= 5
 			}
 			add_hyperlane = { from = PREV to = THIS }
@@ -1794,8 +1816,10 @@ starcluster_spawn_3 = {
 		}
 		random_neighbor_system_euclidean = {
 			limit = { 
-				NOT = { has_star_flag = star_cluster }
-				NOT = { has_hyperlane_to = PREV }
+				NOR = {
+					has_star_flag = star_cluster
+					has_hyperlane_to = PREV
+				}
 				distance_to_core_percent <= 5
 			}
 			add_hyperlane = { from = PREV to = THIS }
@@ -1816,8 +1840,10 @@ starcluster_spawn_3 = {
 				}
 				random_neighbor_system_euclidean = {
 					limit = { 
-						NOT = { has_star_flag = star_cluster }
-						NOT = { has_hyperlane_to = PREV }
+						NOR = {
+							has_star_flag = star_cluster
+							has_hyperlane_to = PREV
+						}
 						distance_to_core_percent <= 5
 					}
 					add_hyperlane = { from = PREV to = THIS }
@@ -1843,8 +1869,10 @@ starcluster_spawn_3 = {
 				}
 				random_neighbor_system_euclidean = {
 					limit = { 
-						NOT = { has_star_flag = star_cluster }
-						NOT = { has_hyperlane_to = PREV }
+						NOR = {
+							has_star_flag = star_cluster
+							has_hyperlane_to = PREV
+						}
 						distance_to_core_percent <= 5
 					}
 					add_hyperlane = { from = PREV to = THIS }
@@ -1870,8 +1898,10 @@ starcluster_spawn_3 = {
 				}
 				random_neighbor_system_euclidean = {
 					limit = { 
-						NOT = { has_star_flag = star_cluster }
-						NOT = { has_hyperlane_to = PREV }
+						NOR = {
+							has_star_flag = star_cluster
+							has_hyperlane_to = PREV
+						}
 						distance_to_core_percent <= 5
 					}
 					add_hyperlane = { from = PREV to = THIS }
@@ -2402,8 +2432,10 @@ starcluster_spawn_4 = {
 		}
 		random_neighbor_system_euclidean = {
 			limit = { 
-				NOT = { has_star_flag = star_cluster }
-				NOT = { has_hyperlane_to = PREV }
+				NOR = {
+					has_star_flag = star_cluster
+					has_hyperlane_to = PREV
+				}
 				distance_to_core_percent <= 5
 			}
 			add_hyperlane = { from = PREV to = THIS }
@@ -2422,8 +2454,10 @@ starcluster_spawn_4 = {
 		}
 		random_neighbor_system_euclidean = {
 			limit = { 
-				NOT = { has_star_flag = star_cluster }
-				NOT = { has_hyperlane_to = PREV }
+				NOR = {
+					has_star_flag = star_cluster
+					has_hyperlane_to = PREV
+				}
 				distance_to_core_percent <= 5
 			}
 			add_hyperlane = { from = PREV to = THIS }
@@ -2444,8 +2478,10 @@ starcluster_spawn_4 = {
 				}
 				random_neighbor_system_euclidean = {
 					limit = { 
-						NOT = { has_star_flag = star_cluster }
-						NOT = { has_hyperlane_to = PREV }
+						NOR = {
+							has_star_flag = star_cluster
+							has_hyperlane_to = PREV
+						}
 						distance_to_core_percent <= 5
 					}
 					add_hyperlane = { from = PREV to = THIS }
@@ -2471,8 +2507,10 @@ starcluster_spawn_4 = {
 				}
 				random_neighbor_system_euclidean = {
 					limit = { 
-						NOT = { has_star_flag = star_cluster }
-						NOT = { has_hyperlane_to = PREV }
+						NOR = {
+							has_star_flag = star_cluster
+							has_hyperlane_to = PREV
+						}
 						distance_to_core_percent <= 5
 					}
 					add_hyperlane = { from = PREV to = THIS }
@@ -2498,8 +2536,10 @@ starcluster_spawn_4 = {
 				}
 				random_neighbor_system_euclidean = {
 					limit = { 
-						NOT = { has_star_flag = star_cluster }
-						NOT = { has_hyperlane_to = PREV }
+						NOR = {
+							has_star_flag = star_cluster
+							has_hyperlane_to = PREV
+						}
 						distance_to_core_percent <= 5
 					}
 					add_hyperlane = { from = PREV to = THIS }
@@ -3030,8 +3070,10 @@ starcluster_spawn_5 = {
 		}
 		random_neighbor_system_euclidean = {
 			limit = { 
-				NOT = { has_star_flag = star_cluster }
-				NOT = { has_hyperlane_to = PREV }
+				NOR = {
+					has_star_flag = star_cluster
+					has_hyperlane_to = PREV
+				}
 				distance_to_core_percent <= 5
 			}
 			add_hyperlane = { from = PREV to = THIS }
@@ -3050,8 +3092,10 @@ starcluster_spawn_5 = {
 		}
 		random_neighbor_system_euclidean = {
 			limit = { 
-				NOT = { has_star_flag = star_cluster }
-				NOT = { has_hyperlane_to = PREV }
+				NOR = {
+					has_star_flag = star_cluster
+					has_hyperlane_to = PREV
+				}
 				distance_to_core_percent <= 5
 			}
 			add_hyperlane = { from = PREV to = THIS }
@@ -3072,8 +3116,10 @@ starcluster_spawn_5 = {
 				}
 				random_neighbor_system_euclidean = {
 					limit = { 
-						NOT = { has_star_flag = star_cluster }
-						NOT = { has_hyperlane_to = PREV }
+						NOR = {
+							has_star_flag = star_cluster
+							has_hyperlane_to = PREV
+						}
 						distance_to_core_percent <= 5
 					}
 					add_hyperlane = { from = PREV to = THIS }
@@ -3099,8 +3145,10 @@ starcluster_spawn_5 = {
 				}
 				random_neighbor_system_euclidean = {
 					limit = { 
-						NOT = { has_star_flag = star_cluster }
-						NOT = { has_hyperlane_to = PREV }
+						NOR = {
+							has_star_flag = star_cluster
+							has_hyperlane_to = PREV
+						}
 						distance_to_core_percent <= 5
 					}
 					add_hyperlane = { from = PREV to = THIS }
@@ -3126,8 +3174,10 @@ starcluster_spawn_5 = {
 				}
 				random_neighbor_system_euclidean = {
 					limit = { 
-						NOT = { has_star_flag = star_cluster }
-						NOT = { has_hyperlane_to = PREV }
+						NOR = {
+							has_star_flag = star_cluster
+							has_hyperlane_to = PREV
+						}
 						distance_to_core_percent <= 5
 					}
 					add_hyperlane = { from = PREV to = THIS }
@@ -3658,8 +3708,10 @@ starcluster_spawn_6 = {
 		}
 		random_neighbor_system_euclidean = {
 			limit = { 
-				NOT = { has_star_flag = star_cluster }
-				NOT = { has_hyperlane_to = PREV }
+				NOR = {
+					has_star_flag = star_cluster
+					has_hyperlane_to = PREV
+				}
 				distance_to_core_percent <= 5
 			}
 			add_hyperlane = { from = PREV to = THIS }
@@ -3678,8 +3730,10 @@ starcluster_spawn_6 = {
 		}
 		random_neighbor_system_euclidean = {
 			limit = { 
-				NOT = { has_star_flag = star_cluster }
-				NOT = { has_hyperlane_to = PREV }
+				NOR = {
+					has_star_flag = star_cluster
+					has_hyperlane_to = PREV
+				}
 				distance_to_core_percent <= 5
 			}
 			add_hyperlane = { from = PREV to = THIS }
@@ -3700,8 +3754,10 @@ starcluster_spawn_6 = {
 				}
 				random_neighbor_system_euclidean = {
 					limit = { 
-						NOT = { has_star_flag = star_cluster }
-						NOT = { has_hyperlane_to = PREV }
+						NOR = {
+							has_star_flag = star_cluster
+							has_hyperlane_to = PREV
+						}
 						distance_to_core_percent <= 5
 					}
 					add_hyperlane = { from = PREV to = THIS }
@@ -3727,8 +3783,10 @@ starcluster_spawn_6 = {
 				}
 				random_neighbor_system_euclidean = {
 					limit = { 
-						NOT = { has_star_flag = star_cluster }
-						NOT = { has_hyperlane_to = PREV }
+						NOR = {
+							has_star_flag = star_cluster
+							has_hyperlane_to = PREV
+						}
 						distance_to_core_percent <= 5
 					}
 					add_hyperlane = { from = PREV to = THIS }
@@ -3754,8 +3812,10 @@ starcluster_spawn_6 = {
 				}
 				random_neighbor_system_euclidean = {
 					limit = { 
-						NOT = { has_star_flag = star_cluster }
-						NOT = { has_hyperlane_to = PREV }
+						NOR = {
+							has_star_flag = star_cluster
+							has_hyperlane_to = PREV
+						}
 						distance_to_core_percent <= 5
 					}
 					add_hyperlane = { from = PREV to = THIS }
